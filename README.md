@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Final Project - Publify (front-end part)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(1/2) I created web application called "Publify" which is a web platform where you can create account and share your stories/knowledge/achievements and anything else that you want. The navigation is pretty straightforward - you can read posts even without logging in, but in case if you want to share your own post or write comments you would have to either log in or register a new account. When you published your post you can edit it anytime. For any story you can add image called preview, that will be seen by everyone on the home page. 
 
-## Available Scripts
+Link: https://publify-final-4l8xytzqf-justforfun29.vercel.app/
 
-In the project directory, you can run:
+Link to front-end repo: https://github.com/JustForFun29/publify-frontend
 
-### `npm start`
+Link to back-end repo: https://github.com/JustForFun29/publify-final
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+(3) Technologies that I used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Back-end:
 
-### `npm test`
+-express: to create server-side of the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-mongoose: to connect MongoDB
 
-### `npm run build`
+-multer: to handle all image uploading to the server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-express-validator: to handle all form validations on server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-cors: to resolve issue with cross-origin resource sharing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-jsonwebtoken: to verify tokens, so that server knows that user is still loged in. (when you log in or register you get this token)
 
-### `npm run eject`
+-bcrypt: to encrypt/decrypt all passwords.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Front-end:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-React: I felt that react is the best open-source JS library that I could use for this project since I have strong knowledge of this technology
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-axios: used it to handle all http requests to server from client-side.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-react-redux: used it to work with React's component model especially for http requests made from axios
 
-## Learn More
+-mui: used it to create UI of the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-emotion.js: used it for writing css styles with JavaScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-sass: used it to create css code much easier
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(4) The only challenge that I faced during this project is lack of time. Since I was working on it by myself it was challenging to finish it by myself in a short time period. This term was one of the most challenging ones for me due to several reasons.
 
-### Analyzing the Bundle Size
+(5) As mentioned above I've finished this project by myself.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(6) https://youtu.be/2W8hF66Ro6g
